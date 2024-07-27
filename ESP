@@ -1588,7 +1588,7 @@ function CreateMenu(NewPosition) -- Create Menu
 		Visible		= true;
 	});
 	Menu:AddMenuInstance('TopBarText', 'Text', {
-		Size 		= 25;
+		Size 		= 20;
 		Position	= shared.MenuDrawingData.Instances.TopBarTwo.Position + V2New(25, 10);
 		Text		= ' FERG - EXTENSION ESP';
 		Color		= Colors.Secondary.Light;
